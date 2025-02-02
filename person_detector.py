@@ -4,7 +4,7 @@ from google.cloud import vision
 
 # --- Configuration ---
 # Google Cloud setup
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"C:\Users\seohj\Downloads\gen-lang-client-0591642241-1946d8bcbfab.json"  # Replace with your credentials path
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r""  # Api Key is removed for security
 
 # Initialize the Vision API client
 client = vision.ImageAnnotatorClient()
